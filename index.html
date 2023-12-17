@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio Design</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+  font-family: serif,bold;
+  background-color: blanchedalmond; /* Ivory */
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: lightblue;
+  color: white;
+}
+
+/* Hero Section */
+.hero-section {
+  background-image: url('your-hero-image.jpg');
+  background-size: cover;
+  color: black; /* Dark gray text */
+  text-align: center;
+  padding: 150px 0;
+  font-size: 45px;
+  font-family: serif;
+  
+}
+
+/* About Me Section */
+.about-section {
+  background-color: peachpuff; /* White */
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* About Me Images */
+.about-section img {
+  width: 85%;
+  max-width: 400px;
+  margin: 40px 0;
+  border-radius: 10px; /* Add border-radius for rounded corners */
+  box-shadow: 0 0 10px ivory; /* Add a subtle shadow */
+}
+
+
+/* Skills Section */
+.text {
+  font-family: serif;
+  font-size: 35px;
+}
+
+.skills-section {
+  background-color: peachpuff;
+  padding: 50px 0;
+  text-align: center;
+}
+.skills-container {
+  max-width: 800px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.skill {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  background-color: peachpuff;
+  color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.skill:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.skill h3 {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.skill p {
+  font-size: 14px;
+}
+
+/* Customize individual skills */
+.creativity { background-color: lightblue; }
+.vision { background-color: lightblue; }
+.communication { background-color: lightblue; }
+.design-trends { background-color: lightblue; }
+.color-basics { background-color: lightblue; }
+.spatial-balance { background-color: lightblue; }
+.budgeting { background-color: lightblue; }
+.time-management { background-color: lightblue; }
+
+/* Project Section */
+.project-section {
+  background-color: peachpuff;
+  padding: 50px 0;
+}
+.project-section img {
+  display: inline-block;
+  width: 40%;
+  max-width: 250px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+
+/* Education Section */
+.education-section {
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.5;
+  color: black;
+  margin-bottom: 20px;
+  background-color: #ffdab9; /* peachpuff */
+  padding: 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.education-section:hover {
+  background-color: blanchedalmond; /* pink */
+}
+
+.education-section h2 {
+  font-size: 35px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.education-section p {
+  margin-bottom: 10px;
+  background-color: #ffdab9; /* peachpuff */
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.education-section p:hover {
+  background-color: blanchedalmond; /* pink */
+}
+
+
+
+
+/* Contact Section */
+.contact-section {
+  background-color: peachpuff;
+  padding: 50px 0;
+}
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+h2 {
+  color: black; /* Set the color of the title */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+
+/* Footer Section */
+.footer {
+  background-color: ivory;
+  color: lightblue;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+  </style>
+  
+  <!-- Hero Section -->
+  <div class="hero-section">
+    <h1>ByBia</h1>
+    <p>Interior Designer</p>
+    <!-- Add a call-to-action button or any other elements as needed -->
+  </div>
+
+  <!-- About Me Section -->
+  <section class="about-section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Our team makes interior spaces functional ,safe and beautiful for every type of building.</p>
+      <!-- Add more content or styling as needed -->
+      <img src="https://www.thespruce.com/thmb/mzMSRWtA6CtojMCJRBCvuspfI5k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/interior-design-vs-interior-decorating-1976740-hero-07-cdbc06dded6a4174a2e0ff81966c678c.jpg" alt="Interior Designer 1">
+      <img src="https://www.thespruce.com/thmb/VHC8Uqg2iKknwt0HaaZljVkDWNg=/2119x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1161177015-f1de4ba58a6c4f50969d9119d80405a6.jpg" alt="Interior Designer 2">
+    </div>
+  </section>
+
+ 
+      <h2>Skills</h2>
+      <!-- Add a list of your skills using Bootstrap badges or any other styling -->
+      <div class="skills-container">
+        <div class="skill creativity">
+        
+          <p>Attention to Detail</p>
+        </div>
+        <div class="skill vision">
+          <h3>Vision</h3>
+        </div>
+        <div class="skill communication">
+          <h3>Communication Skills</h3>
+        </div>
+        <div class="skill design-trends">
+          <h3>Design Trends</h3>
+        </div>
+        <div class="skill color-basics">
+          <h3>Color Basics</h3>
+        </div>
+        <div class="skill spatial-balance">
+          <h3>Spatial Balance</h3>
+        </div>
+        <div class="skill budgeting">
+          <h3>Budgeting Skills</h3>
+        </div>
+        <div class="skill time-management">
+          <h3>Time Management</h3>
+        </div>
+      
+      <!-- Add more skills as needed -->
+    </div>
+  </section>
+
+  <!-- Project Section -->
+  <section class="project-section">
+    <div class="container">
+      <h2>Projects</h2>
+      <img src="https://www.decorilla.com/online-decorating/wp-content/uploads/2022/01/Sustainable-interior-design-materials-ADstyle.jpg" alt="Interior Design 3">
+      <img src="https://homeinawe.com/wp-content/uploads/2018/05/Screen-Shot-2018-05-20-at-2.38.39-PM-870x580.png" alt="Interior Design 4">
+      <img src="https://www.decoraid.com/wp-content/uploads/2018/08/Minimalist-Interior-Design-Living-Room-Ideas.jpg" alt="Interior Design 5">
+      <img src="https://media.houseandgarden.co.uk/photos/6189484654d217939a071585/master/pass/roseuniacke_p143-14405x.jpg" alt="Interior Design 6">
+      <img src="https://hips.hearstapps.com/hmg-prod/images/robert-brown-interior-design-portfolio-interiors-family-room-media-1501110849-9469113-1557866371.jpg" alt="Interior Design 7">
+      <img src="https://bonito.in/wp-content/uploads/2023/03/Blog-Detail-01-5.jpg" alt="Interior Design 8">
+      <img src="https://designtobuildblog.com/wp-content/uploads/2023/02/SCANDINAVIAN-MINIMALIST-INTERIOR-DESIGN-3.jpg" alt="Interior Design 9">
+      <img src="https://www.mydomaine.com/thmb/YZclp57C-ub1Mp3bskbkrgk2VQ4=/1024x0/filters:no_upscale():strip_icc()/af1be3_3075c14ccd2b461aaa9f8b3bc4e1c5e3_mv2-56f748ca98b44c8b861fa0a01d5bc504.jpeg" alt="Interior Design 10">
+      <img src="https://i.pinimg.com/736x/cb/d0/91/cbd091752be62a60ed79bc4dd407a1a7.jpg" alt="Interior Design">
+      <!-- Add your project details, images, or any other content as needed -->
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="education-section">
+    <h2>Education</h2>
+    <p>
+      Bachelor of Interior Design<br>
+      University of Florence, Italy<br>
+      Graduated: May 2028
+    </p>
+    <h3>High School Orizont, Graduated 2025</h3>
+    <p>
+      High School Diploma<br>
+      Graduated: May 2025
+    </p>
+  </section>
+
+
+  <!-- Contact Section -->
+  
+      <div class="container mt-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+    
+        <div class="row">
+          <div class="col-md-6 mx-auto">
+            <form>
+              
+              <div class="form-group">
+                <label for="email">Email:bybiadesigns@gmail.com</label>
+                <input type="email" class="form-control" id="email" placeholder="Your Email">
+              </div>
+              <div class="form-group">
+                <label for="message">Message:+39 0073557</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <div class="footer">
+    <p>&copy; 2023 Interior Designer Portfolio</p>
+  </div>
+
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
